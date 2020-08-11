@@ -1,10 +1,10 @@
 {
   "name": "hutton-assemblyscript",
   "scripts": {
-    "compile": "asc ./node_modules/as-bind/lib/assembly/as-bind.ts assembly/hutton.ts -b assembly/hutton.wasm -t assembly/hutton.wat --runtime stub --validate --optimize"
+    "compile": "asc ./node_modules/as-bind/lib/assembly/as-bind.ts assembly/hutton.ts -b assembly/hutton.wasm -t assembly/hutton.wat --runtime stub -O3"
   },
   "devDependencies": {
-    "assemblyscript": "^0.9.2"
+    "assemblyscript": "^0.14.8"
   },
   "dependencies": {
     "as-bind": "^0.4.0"
