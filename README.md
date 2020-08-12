@@ -15,3 +15,5 @@ npm run compile
 ```
 deno run --allow-read main.ts
 ```
+
+Thanks to [MaxGraey](https://github.com/MaxGraey) for correcting some anti-patterns present in my AssemblyScript.
